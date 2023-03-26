@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Regist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--header-->
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="https://www.facebook.com/posindonesia/?locale=id_ID"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/@PosIndonesiajuara"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/PosIndonesia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/posindonesia.ig/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+			<h1><a href="index.html">mine</a></h1>
+					<ul>
+					<li class="active"><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="regist.html">MEMBER</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="form">
+    <div class="ct">
+    <div class="atas">
+    <div class="atur"></div>
+        <h2 class="judul">Form Member Account</h2>
+    </div>
+    <div class="artikel" data-aos="fade-up" data-aos-duration="1500">
+        <form class="garis" id="dataa">
+        <fieldset><legend>Membership Data</legend>
+            <div class="g">
+                <label for="username">Username/ID<span class="required" >*</span></label>
+                <input type="text" id="form_username" required placeholder="Username">
+            </div>
+            <div class="g">
+                <label for="password">Password<span class="required">*</span></label>
+                <input type="password" id="form_password" required placeholder="Password">
+            </div>
+        </fieldset>
+        <fieldset><legend>Personal Data</legend>
+            <div class="g">
+                <label for="nama">Full Name<span class="required">*</span></label>
+                <input type="nama" id="fornama" required placeholder="Full Name">
+            </div>
+            <div class="g">
+                <label for="email">Email Address<span class="required">*</span></label>
+                <input type="email" id="foremail" required placeholder="Email Address">
+            </div>
+            <div class="g">
+                <label for="tlp">Phone<span class="required">*</span></label>
+                <input type="tel" id="fortelp" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" required placeholder="Phone : 08**********">
+            </div>
+    
+            <div class="grup-offset">
+                <label for="gender">Gender<span class="required">*</span><br></label>
+                <input type="radio" id="gender" value="Pria">
+                <input type="radio" id="gender" value="Wanita">
+            </div>
+           <div class="grup-checkbox">
+                <label for="layanan">Favorite<span class="required">*</span><br></label>
+                <input type="checkbox" id="fem">
+                <label for="fem">Feminine</label>
+                <input type="checkbox" id="masc">
+                <label for="masc">Masculine</label>
+                <input type="checkbox" id="soft">
+                <label for="soft">Soft</label>
+           </div> 
+            <div class="grup-offsett">
+                <center><button type="submit" id="submit" value="Sign In">Submit</button></center>  
+                <br><center><button type="reset" value="Reset">Reset</button></center></br>
+            </div>
+            </fieldset>
+            
+            </form>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="js/regist.js"></script>
+</html>
