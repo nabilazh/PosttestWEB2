@@ -5,7 +5,6 @@ function submitForm() {
     let nama = document.getElementById('fornama').value;
     let email = document.getElementById('foremail').value;
     let no = document.getElementById('fortelp').value;
-    let alamat = document.getElementById('alamat').value;
     let radios = document.getElementsByName("gender");
     let gender = "";
   
@@ -27,9 +26,8 @@ function submitForm() {
     dataForm.push({
       nama: nama,
       email: email,
-      alamat: alamat,
-      tlp: no,
-      JK: JK,
+      no: no,
+      gender: gender,
       favorit: favorit,
     });
     alert("Selamat, Berhasil Menjadi Member");
