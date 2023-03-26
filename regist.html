@@ -13,10 +13,9 @@
     <div class="medsos">
         <div class="container">
             <ul>
-                <li><a href="https://www.facebook.com/posindonesia/?locale=id_ID"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com/@PosIndonesiajuara"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href="https://twitter.com/PosIndonesia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/posindonesia.ig/"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/mine.dot"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/mine.perfumery?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/mineperfumery?s=21&t=Q1IF2tHCW4WqPDZeLDqzOQ"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
     </div>
@@ -64,22 +63,42 @@
             </div>
     
             <div class="grup-offset">
-                <label for="gender">Gender<span class="required">*</span><br></label>
-                <input type="radio" id="gender" value="Pria">
-                <input type="radio" id="gender" value="Wanita">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <input type="radio" name="gender" id="dot-1" value="Pria"> 
+                        <span class="gender">Male</span>
+                    </label>
+                </div>
+                <div class="category">
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <input type="radio" name="gender" id="dot-2" value="Wanita">
+                        <span class="gender">Female</span>
+                    </label>                
+                </div>
             </div>
+            <br>
            <div class="grup-checkbox">
-                <label for="layanan">Favorite<span class="required">*</span><br></label>
-                <input type="checkbox" id="fem">
-                <label for="fem">Feminine</label>
-                <input type="checkbox" id="masc">
-                <label for="masc">Masculine</label>
-                <input type="checkbox" id="soft">
-                <label for="soft">Soft</label>
-           </div> 
+            <label for="layanan">Favorite<span class="required">*</span><br></label>
+            <div> 
+                <input class="checkbox" type="checkbox" id="fem" value="Feminine"> 
+                <label class="check" for="feminine">Feminine</label>
+            </div>
+            <div> 
+                <input class="checkbox" type="checkbox" id="masc" value="Masculine"> 
+                <label class="check" for="masculine">Masculine</label>
+            </div>
+            <div> 
+                <input class="checkbox" type="checkbox" id="sof" value="Soft"> 
+                <label class="check" for="soft">Soft</label>
+            </div>
+
             <div class="grup-offsett">
-                <center><button type="submit" id="submit" value="Sign In">Submit</button></center>  
-                <br><center><button type="reset" value="Reset">Reset</button></center></br>
+                <center><button type="submit" id="submit" value="Sign In">Submit</button></center>    
+                    <center><button type="reset" value="Reset">Reset</button></center>
+                </div>
             </div>
             </fieldset>
             
