@@ -7,9 +7,8 @@ function acc(){
 
     document.getElementById('m_nama').textContent = dataTerakhir.nama;
     document.getElementById('m_email').textContent = dataTerakhir.email;
-    document.getElementById('m_alamat').textContent = dataTerakhir.alamat;
-    document.getElementById('m_no').textContent = dataTerakhir.notelp;
-    document.getElementById('JK').textContent = dataTerakhir.JK;
+    document.getElementById('m_no').textContent = dataTerakhir.no;
+    document.getElementById('gender').textContent = dataTerakhir.gender;
     document.getElementById('favorit').textContent = dataTerakhir.favorit.join(', ');
 };
 
